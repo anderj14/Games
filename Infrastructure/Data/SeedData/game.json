@@ -1,0 +1,952 @@
+[
+    {
+        "Id": 1,
+        "GameName": "SpIder-Man: Miles Morales",
+        "Description": "Experience the rise of Miles Morales as the new SpIder-Man in this action-packed adventure. Set in the vibrant streets of New York City, Miles must master his newfound powers and confront new threats. With stunning visuals and dynamic gameplay, SpIder-Man: Miles Morales is a thrilling addition to the SpIder-Man universe.",
+        "Genre": "Action-Adventure",
+        "Developer": "Insomniac Games",
+        "ReleaseDate": "2020-11-12",
+        "GameConsoleId": 1,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 2,
+        "GameName": "Demon's Souls",
+        "Description": "Embark on a perilous journey through the dark and atmospheric world of Demon's Souls. This remake of the classic action RPG delivers intense combat, breathtaking visuals, and a challenging adventure. Face formIdable enemies and uncover the secrets of the Nexus in this captivating and unforgiving gaming experience.",
+        "Genre": "Action RPG",
+        "Developer": "Bluepoint Games",
+        "ReleaseDate": "2020-11-12",
+        "GameConsoleId": 1,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 3,
+        "GameName": "Ratchet & Clank: Rift Apart",
+        "Description": "Join Ratchet and his robotic companion Clank on an interdimensional quest filled with chaos and excitement. Utilize mind-bending rifts to explore diverse worlds and engage in high-octane battles. With innovative gameplay and stunning visuals, Ratchet & Clank: Rift Apart showcases the power of the PlayStation 5.",
+        "Genre": "Action-Platformer",
+        "Developer": "Insomniac Games",
+        "ReleaseDate": "2021-06-11",
+        "GameConsoleId": 1,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 4,
+        "GameName": "Returnal",
+        "Description": "Plunge into a haunting and ever-changing alien landscape in Returnal. As Selene, an astronaut trapped in a time loop, face relentless foes and uncover the mysteries of an alien civilization. With dynamic environments and intense combat, Returnal delivers a unique and atmospheric gaming experience.",
+        "Genre": "Third-Person Shooter",
+        "Developer": "Housemarque",
+        "ReleaseDate": "2021-04-30",
+        "GameConsoleId": 1,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 5,
+        "GameName": "Horizon ForbIdden West",
+        "Description": "Embark on an epic journey with Aloy, the skilled hunter, as she explores the majestic and dangerous ForbIdden West. Uncover hIdden secrets, face colossal machines, and unravel the mysteries of a post-apocalyptic world. Horizon ForbIdden West promises breathtaking visuals and a captivating open-world adventure.",
+        "Genre": "Action RPG",
+        "Developer": "Guerrilla Games",
+        "ReleaseDate": "2022-02-18",
+        "GameConsoleId": 1,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 6,
+        "GameName": "The Last of Us Part II",
+        "Description": "Immerse yourself in an emotionally charged post-apocalyptic world in The Last of Us Part II. Follow Ellie's journey as she navigates through intense combat, emotional challenges, and a gripping narrative. With stunning visuals and a powerful story, this game is a testament to the potential of storytelling in vIdeo games.",
+        "Genre": "Action-Adventure",
+        "Developer": "Naughty Dog",
+        "ReleaseDate": "2020-06-19",
+        "GameConsoleId": 2,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 7,
+        "GameName": "God of War",
+        "Description": "Embark on a mythological journey with Kratos and his son Atreus in God of War. This action-adventure game combines intense combat, rich storytelling, and breathtaking visuals. Explore the world of Norse mythology and witness the evolution of Kratos in this critically acclaimed title.",
+        "Genre": "Action-Adventure",
+        "Developer": "Santa Monica Studio",
+        "ReleaseDate": "2018-04-20",
+        "GameConsoleId": 2,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 8,
+        "GameName": "Uncharted 4: A Thief's End",
+        "Description": "Join Nathan Drake on his final adventure in Uncharted 4: A Thief's End. Set out on a globe-trotting quest full of treasure hunting, intense action, and breathtaking landscapes. With cinematic storytelling and engaging gameplay, Uncharted 4 delivers a fitting conclusion to the beloved series.",
+        "Genre": "Action-Adventure",
+        "Developer": "Naughty Dog",
+        "ReleaseDate": "2016-05-10",
+        "GameConsoleId": 2,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 9,
+        "GameName": "Bloodborne",
+        "Description": "Descend into the nightmarish world of Yharnam in Bloodborne. From the creators of Dark Souls, this action RPG offers challenging combat, Gothic environments, and a dark narrative. Face grotesque creatures and uncover the mysteries of a city plagued by a mysterious illness.",
+        "Genre": "Action RPG",
+        "Developer": "FromSoftware",
+        "ReleaseDate": "2015-03-24",
+        "GameConsoleId": 2,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 10,
+        "GameName": "Horizon Zero Dawn",
+        "Description": "Venture into a lush and post-apocalyptic world in Horizon Zero Dawn. Play as Aloy, a skilled hunter, and explore a world overrun by robotic creatures. With a compelling story, dynamic combat, and stunning visuals, Horizon Zero Dawn offers an unforgettable open-world experience.",
+        "Genre": "Action RPG",
+        "Developer": "Guerrilla Games",
+        "ReleaseDate": "2017-02-28",
+        "GameConsoleId": 2,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 11,
+        "GameName": "Halo Infinite",
+        "Description": "Master Chief returns in the highly anticipated Halo Infinite. Explore a vast and visually stunning open world as you confront new threats and embark on a journey to save humanity. With a focus on the iconic Halo universe, this game promises a thrilling experience for fans and newcomers alike.",
+        "Genre": "First-Person Shooter",
+        "Developer": "343 Industries",
+        "ReleaseDate": "2021-12-08",
+        "GameConsoleId": 3,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 12,
+        "GameName": "Forza Horizon 5",
+        "Description": "Experience the thrill of open-world racing in Forza Horizon 5. Set in the stunning landscapes of Mexico, this racing game offers a diverse range of environments and a vast array of vehicles. With realistic graphics and dynamic weather, Forza Horizon 5 delivers an immersive and visually captivating racing experience.",
+        "Genre": "Racing",
+        "Developer": "Playground Games",
+        "ReleaseDate": "2021-11-09",
+        "GameConsoleId": 3,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 13,
+        "GameName": "Gears 5",
+        "Description": "Continue the saga of Marcus Fenix in the action-packed Gears 5. Join Kait Diaz as she uncovers her connection to the enemy and fights to save humanity. With intense combat, a gripping narrative, and stunning visuals, Gears 5 showcases the power of the Xbox Series X hardware.",
+        "Genre": "Third-Person Shooter",
+        "Developer": "The Coalition",
+        "ReleaseDate": "2019-09-10",
+        "GameConsoleId": 3,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 14,
+        "GameName": "Fable",
+        "Description": "Return to the magical world of Albion in the reimagined Fable. Embark on a whimsical and adventurous journey where your choices shape the destiny of the land. With a fresh take on the beloved franchise, Fable promises a captivating and humorous experience for players.",
+        "Genre": "Action RPG",
+        "Developer": "Playground Games",
+        "ReleaseDate": "2023-07-15",
+        "GameConsoleId": 3,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 15,
+        "GameName": "Hellblade: Senua's Saga",
+        "Description": "Journey into the mind of Senua in Hellblade: Senua's Saga. This psychological horror action-adventure game explores mental health themes and offers a visually stunning experience on the Xbox Series X. Face challenges in a dark and haunting world as you unravel the mysteries of Senua's mind.",
+        "Genre": "Action-Adventure",
+        "Developer": "Ninja Theory",
+        "ReleaseDate": "2022-06-21",
+        "GameConsoleId": 3,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 16,
+        "GameName": "Gears of War 4",
+        "Description": "Return to the Gears universe in this action-packed installment. Gears of War 4 follows a new generation of heroes as they confront a mysterious and powerful enemy. With intense cooperative gameplay and stunning visuals, this game continues the legacy of the iconic Gears of War series.",
+        "Genre": "Third-Person Shooter",
+        "Developer": "The Coalition",
+        "ReleaseDate": "2016-10-11",
+        "GameConsoleId": 4,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 17,
+        "GameName": "Ori and the Blind Forest",
+        "Description": "Embark on an emotional journey in Ori and the Blind Forest. This visually stunning platformer follows Ori, a guardian spirit, as they navigate a beautiful yet perilous forest. With a heartfelt narrative and challenging gameplay, Ori and the Blind Forest offers a unique and memorable gaming experience.",
+        "Genre": "Platformer",
+        "Developer": "Moon Studios",
+        "ReleaseDate": "2015-03-11",
+        "GameConsoleId": 4,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 18,
+        "GameName": "Forza Motorsport 7",
+        "Description": "Experience the thrill of authentic racing in Forza Motorsport 7. With realistic graphics, dynamic weather, and a vast selection of cars and tracks, this racing simulation game sets the standard for the Genre. Compete against friends or AI in a variety of events and showcase your driving skills.",
+        "Genre": "Racing",
+        "Developer": "Turn 10 Studios",
+        "ReleaseDate": "2017-10-03",
+        "GameConsoleId": 4,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 19,
+        "GameName": "Halo 5: Guardians",
+        "Description": "Join Master Chief and his team in the epic sci-fi shooter, Halo 5: Guardians. With a gripping story, intense multiplayer modes, and the introduction of new characters, this installment pushes the boundaries of the Halo universe. Engage in a galactic battle for survival in one of Xbox One's flagship titles.",
+        "Genre": "First-Person Shooter",
+        "Developer": "343 Industries",
+        "ReleaseDate": "2015-10-27",
+        "GameConsoleId": 4,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 20,
+        "GameName": "Sea of Thieves",
+        "Description": "Set sail for adventure in Sea of Thieves, a shared-world pirate adventure game. Form a crew, explore the open seas, and engage in thrilling naval battles. With a dynamic and ever-changing world, Sea of Thieves offers a unique multiplayer experience where you can live the pirate's life.",
+        "Genre": "Action-Adventure",
+        "Developer": "Rare",
+        "ReleaseDate": "2018-03-20",
+        "GameConsoleId": 4,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 21,
+        "GameName": "The Legend of Zelda: Breath of the Wild",
+        "Description": "Embark on an epic adventure in Hyrule with Link in The Legend of Zelda: Breath of the Wild. Explore a vast, open world filled with danger and wonder. Solve puzzles, defeat enemies, and uncover the secrets of the kingdom. This critically acclaimed title showcases the magic of the Nintendo Switch.",
+        "Genre": "Action-Adventure",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2017-03-03",
+        "GameConsoleId": 5,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 22,
+        "GameName": "Super Mario Odyssey",
+        "Description": "Join Mario on a globe-trotting adventure to rescue Princess Peach in Super Mario Odyssey. Explore diverse kingdoms, capture enemies with Mario's new ally, Cappy, and experience inventive platforming challenges. With charming visuals and inventive gameplay, Super Mario Odyssey is a must-play for Nintendo Switch enthusiasts.",
+        "Genre": "Platformer",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2017-10-27",
+        "GameConsoleId": 5,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 23,
+        "GameName": "Animal Crossing: New Horizons",
+        "Description": "Create your own virtual paradise in Animal Crossing: New Horizons. Escape to a deserted island, build your dream home, and interact with anthropomorphic animal villagers. With its relaxing pace and endless customization options, this life simulation game offers a delightful experience on the Nintendo Switch.",
+        "Genre": "Life Simulation",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2020-03-20",
+        "GameConsoleId": 5,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 24,
+        "GameName": "Splatoon 2",
+        "Description": "Dive into colorful ink-based battles in Splatoon 2. Join the ink-based warfare between Inklings and customize your Inkling character. Engage in thrilling multiplayer matches and strategic turf wars. With its unique take on the shooter Genre, Splatoon 2 delivers fast-paced and inventive gameplay on the Nintendo Switch.",
+        "Genre": "Third-Person Shooter",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2017-07-21",
+        "GameConsoleId": 5,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 25,
+        "GameName": "Mario Kart 8 Deluxe",
+        "Description": "Experience the ultimate kart racing fun in Mario Kart 8 Deluxe. Race against friends or AI, use crazy power-ups, and explore gravity-defying tracks. With a diverse roster of characters and multiplayer mayhem, Mario Kart 8 Deluxe guarantees hours of entertaining races on the Nintendo Switch.",
+        "Genre": "Racing",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2017-04-28",
+        "GameConsoleId": 5,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 26,
+        "GameName": "Super Smash Bros. for Wii U",
+        "Description": "Gather your favorite Nintendo characters and engage in epic battles in Super Smash Bros. for Wii U. With a diverse roster of fighters, iconic stages, and intense multiplayer action, this game is a celebration of Nintendo's gaming legacy. Smash, fight, and compete in this thrilling crossover experience.",
+        "Genre": "Fighting",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2014-11-21",
+        "GameConsoleId": 6,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 27,
+        "GameName": "Super Mario 3D World",
+        "Description": "Embark on a 3D platforming adventure with Mario and friends in Super Mario 3D World. Traverse imaginative levels, use power-ups, and team up for cooperative multiplayer fun. With its charming visuals and creative level design, Super Mario 3D World delivers a delightful gaming experience on the Nintendo Wii U.",
+        "Genre": "Platformer",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2013-11-22",
+        "GameConsoleId": 6,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 28,
+        "GameName": "The Legend of Zelda: The Wind Waker HD",
+        "Description": "Experience the high-definition remake of a Zelda classic in The Legend of Zelda: The Wind Waker HD. Set sail on a grand adventure, explore a vast ocean, and unravel the mystery of the Triforce. With updated visuals and refined gameplay, this HD edition brings new life to a beloved title on the Nintendo Wii U.",
+        "Genre": "Action-Adventure",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2013-09-20",
+        "GameConsoleId": 6,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 29,
+        "GameName": "Splatoon",
+        "Description": "Dive into ink-based multiplayer mayhem in Splatoon. Join the colorful Turf War battles, customize your Inkling, and strive for victory. With its unique take on team-based shooters and vibrant visuals, Splatoon offers a fresh and exciting gaming experience on the Nintendo Wii U.",
+        "Genre": "Third-Person Shooter",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2015-05-28",
+        "GameConsoleId": 6,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 30,
+        "GameName": "Mario Kart 8",
+        "Description": "Race against friends or AI in high-speed karting fun with Mario Kart 8. Master gravity-defying tracks, use crazy power-ups, and compete for victory. With its thrilling races and iconic Nintendo characters, Mario Kart 8 delivers an unforgettable gaming experience on the Nintendo Wii U.",
+        "Genre": "Racing",
+        "Developer": "Nintendo",
+        "ReleaseDate": "2014-05-29",
+        "GameConsoleId": 6,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 31,
+        "GameName": "Sonic the Hedgehog",
+        "Description": "Run, jump, and spin through a vibrant 2D world as Sonic the Hedgehog. This iconic game, originally released in 1991, showcases the speed and attitude that defined the Sega Genesis era. Experience the classic levels, defeat Dr. Robotnik, and save the day in this timeless platformer.",
+        "Genre": "Platformer",
+        "Developer": "Sega",
+        "ReleaseDate": "1991-06-23",
+        "GameConsoleId": 7,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 32,
+        "GameName": "Streets of Rage 2",
+        "Description": "Team up with friends or go solo in the streets as you fight against crime in Streets of Rage 2. This classic beat 'em up, released in 1992, offers intense action, memorable characters, and a killer soundtrack. Unleash powerful moves and take down the criminal syndicate in this Sega Genesis masterpiece.",
+        "Genre": "Beat 'em up",
+        "Developer": "Sega",
+        "ReleaseDate": "1992-12-20",
+        "GameConsoleId": 7,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 33,
+        "GameName": "Phantasy Star IV: The End of the Millennium",
+        "Description": "Embark on an epic sci-fi RPG adventure in Phantasy Star IV: The End of the Millennium. Released in 1993, this role-playing classic offers a compelling story, strategic turn-based battles, and a vast universe to explore. Join forces with a diverse cast of characters and face the ultimate threat to the Algol star system.",
+        "Genre": "Role-Playing Game",
+        "Developer": "Sega",
+        "ReleaseDate": "1993-12-17",
+        "GameConsoleId": 7,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 34,
+        "GameName": "Golden Axe",
+        "Description": "Enter a fantasy world filled with magic and mayhem in Golden Axe. Originally released in 1989, this sIde-scrolling beat 'em up lets you choose your hero and embark on a quest to defeat the evil Death Adder. Battle fierce enemies, rIde mythical creatures, and restore peace to the land of Yuria.",
+        "Genre": "Beat 'em up",
+        "Developer": "Sega",
+        "ReleaseDate": "1989-05-25",
+        "GameConsoleId": 7,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 35,
+        "GameName": "Shining Force II",
+        "Description": "Experience the strategic brilliance of Shining Force II, a tactical RPG released in 1993. Lead a group of heroes on a quest to save the Kingdom of Granseal from dark forces. Engage in turn-based battles, explore diverse landscapes, and uncover the mysteries of an enchanting world in this Sega Genesis gem.",
+        "Genre": "Tactical RPG",
+        "Developer": "Sega",
+        "ReleaseDate": "1993-10-01",
+        "GameConsoleId": 7,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 36,
+        "GameName": "Sonic Adventure",
+        "Description": "Experience the thrill of high-speed action and adventure with Sonic Adventure. Released as a launch title for the Sega Dreamcast in 1999, this 3D platformer introduces Sonic and friends in an immersive 3D world. Embark on a quest to thwart the plans of the villainous Dr. Robotnik and save the mystical Chaos Emeralds.",
+        "Genre": "Action-Adventure",
+        "Developer": "Sega",
+        "ReleaseDate": "1999-09-09",
+        "GameConsoleId": 8,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 37,
+        "GameName": "Shenmue",
+        "Description": "Immerse yourself in the cinematic and open-world experience of Shenmue. Released in 1999, this groundbreaking action-adventure game follows the protagonist Ryo Hazuki on a quest for revenge. Explore detailed environments, engage in realistic daily activities, and uncover the secrets behind the mysterious Dragon Mirror.",
+        "Genre": "Action-Adventure",
+        "Developer": "Sega AM2",
+        "ReleaseDate": "1999-12-29",
+        "GameConsoleId": 8,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 38,
+        "GameName": "Crazy Taxi",
+        "Description": "Get ready for a wild rIde in Crazy Taxi, an arcade-style racing game released for the Sega Dreamcast in 2000. As a fearless taxi driver, navigate through a bustling city, pick up passengers, and deliver them to their destinations with a flair for speed and stunts. Time is money, so go crazy!",
+        "Genre": "Racing",
+        "Developer": "Sega AM3",
+        "ReleaseDate": "2000-01-24",
+        "GameConsoleId": 8,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 39,
+        "GameName": "Jet Set Radio",
+        "Description": "Express yourself through graffiti and extreme inline skating in Jet Set Radio. Released in 2000, this stylish and innovative game by Sega lets players join a gang of rebellious skaters known as the GGs. Cruise through Tokyo-to, tag your turf, and evade rival gangs in this unique and visually striking adventure.",
+        "Genre": "Action",
+        "Developer": "Smilebit",
+        "ReleaseDate": "2000-10-30",
+        "GameConsoleId": 8,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 40,
+        "GameName": "Soulcalibur",
+        "Description": "Step into the arena and engage in epic weapon-based combat in Soulcalibur. Originally an arcade hit, the Dreamcast version, released in 1999, brought the intense fighting action to the console. Choose your favorite character and master their unique fighting style in this critically acclaimed 3D fighting game.",
+        "Genre": "Fighting",
+        "Developer": "Namco",
+        "ReleaseDate": "1999-09-09",
+        "GameConsoleId": 8,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 46,
+        "GameName": "Missile Command: Recharged",
+        "Description": "Experience a modern twist on a classic arcade game with Missile Command: Recharged on the Atari VCS. Released in 2021, this reimagined version of Missile Command challenges players to defend their cities against waves of incoming missiles. Utilize new power-ups and strategic thinking to thwart the missile onslaught in this updated arcade gem.",
+        "Genre": "Arcade",
+        "Developer": "Nickervision Studios",
+        "ReleaseDate": "2021-02-23",
+        "GameConsoleId": 9,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 47,
+        "GameName": "Tempest 4000",
+        "Description": "Enter a visually stunning and intense shooter experience with Tempest 4000 on the Atari VCS. Released in 2018, this arcade-style shooter pays homage to the classic Tempest series. Navigate through geometric patterns, blast enemies, and chase high scores in this electrifying and visually mesmerizing game.",
+        "Genre": "Shooter",
+        "Developer": "Llamasoft",
+        "ReleaseDate": "2018-07-17",
+        "GameConsoleId": 9,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 48,
+        "GameName": "Centipede: Recharged",
+        "Description": "Embark on a retro-inspired insect-blasting adventure with Centipede: Recharged on the Atari VCS. Released in 2021, this updated take on the classic Centipede challenges players to eliminate creepy crawlers and face formIdable bosses. Enjoy enhanced visuals and classic gameplay in this rejuvenated arcade experience.",
+        "Genre": "Arcade",
+        "Developer": "Nickervision Studios",
+        "ReleaseDate": "2021-08-30",
+        "GameConsoleId": 9,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 49,
+        "GameName": "Yars' Revenge: Reimagined",
+        "Description": "Dive into a reimagined version of a classic Atari title with Yars' Revenge: Reimagined on the Atari VCS. Released in 2020, this updated take on the iconic Yars' Revenge introduces modern graphics and gameplay while preserving the essence of the original. Join the Yars on a quest for revenge in this revitalized arcade adventure.",
+        "Genre": "Arcade",
+        "Developer": "Nickervision Studios",
+        "ReleaseDate": "2020-11-19",
+        "GameConsoleId": 9,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 50,
+        "GameName": "Crystal Castles Remastered",
+        "Description": "Return to the whimsical world of Bentley Bear with Crystal Castles Remastered on the Atari VCS. Released in 2022, this remastered edition of the classic arcade game invites players to navigate mazes, collect gems, and evade enemies. Experience the charm of Crystal Castles with updated visuals and engaging gameplay.",
+        "Genre": "Arcade",
+        "Developer": "Nickervision Studios",
+        "ReleaseDate": "2022-04-05",
+        "GameConsoleId": 9,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 51,
+        "GameName": "Pong",
+        "Description": "Experience the game that started it all with Pong on the Atari 2600. Originally released in arcades in 1972, Pong became a cultural phenomenon and laId the foundation for the vIdeo game industry. The Atari 2600 version, released in 1977, brought the classic Pong experience to home gamers, marking a historic moment in gaming history.",
+        "Genre": "Sports",
+        "Developer": "Atari",
+        "ReleaseDate": "1977-09-11",
+        "GameConsoleId": 10,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 52,
+        "GameName": "Space Invaders",
+        "Description": "Defend Earth against an alien invasion with Space Invaders on the Atari 2600. Originally released in arcades in 1978, Space Invaders became a global sensation. The Atari 2600 adaptation, released in 1980, brought the iconic shoot 'em up gameplay to home consoles, contributing to the success of the Atari 2600 platform.",
+        "Genre": "Shooter",
+        "Developer": "Atari",
+        "ReleaseDate": "1980-08-16",
+        "GameConsoleId": 10,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 53,
+        "GameName": "Adventure",
+        "Description": "Embark on a quest for the Enchanted Chalice in Adventure on the Atari 2600. Released in 1980, Adventure is consIdered one of the earliest action-adventure games. Players explore a maze-like kingdom, solve puzzles, and confront dragons in this groundbreaking title that showcased the potential of storytelling in vIdeo games.",
+        "Genre": "Adventure",
+        "Developer": "Atari",
+        "ReleaseDate": "1980-12-15",
+        "GameConsoleId": 10,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 54,
+        "GameName": "Pitfall!",
+        "Description": "Embark on a jungle adventure with Pitfall! on the Atari 2600. Released in 1982, Pitfall! is a classic platformer that follows the journey of explorer Harry as he swings across vines, avoIds hazards, and collects treasures. This influential title is celebrated for its innovative gameplay and contribution to the platformer Genre.",
+        "Genre": "Platformer",
+        "Developer": "Activision",
+        "ReleaseDate": "1982-04-20",
+        "GameConsoleId": 10,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 55,
+        "GameName": "E.T. the Extra-Terrestrial",
+        "Description": "Join E.T. on an intergalactic adventure in E.T. the Extra-Terrestrial on the Atari 2600. Released in 1982, this game is notable for its tie-in with the iconic film. Players help E.T. collect parts to assemble a phone and call for rescue. While controversial, E.T. the Extra-Terrestrial remains a piece of gaming history.",
+        "Genre": "Adventure",
+        "Developer": "Atari",
+        "ReleaseDate": "1982-12-07",
+        "GameConsoleId": 10,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 56,
+        "GameName": "Alone in the Dark",
+        "Description": "Experience survival horror in Alone in the Dark on the Panasonic 3DO. Released in 1992, Alone in the Dark is credited as one of the first 3D survival horror games. Players investigate a haunted mansion, solving puzzles, and encountering supernatural threats. Its atmospheric tension and cinematic presentation set a precedent for the Genre.",
+        "Genre": "Survival Horror",
+        "Developer": "Infogrames",
+        "ReleaseDate": "1992-12-22",
+        "GameConsoleId": 11,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 57,
+        "GameName": "Star Control II",
+        "Description": "Engage in space exploration and epic battles in Star Control II on the Panasonic 3DO. Released in 1992, Star Control II combines strategy, role-playing, and space combat. Players explore a vast universe, interact with alien races, and engage in intense ship-to-ship combat. The game is celebrated for its open-world design and engaging narrative.",
+        "Genre": "Space Strategy",
+        "Developer": "Toys for Bob",
+        "ReleaseDate": "1992-11-25",
+        "GameConsoleId": 11,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 58,
+        "GameName": "Road Rash",
+        "Description": "Experience high-speed motorcycle racing and combat in Road Rash on the Panasonic 3DO. Released in 1991, Road Rash is an adrenaline-fueled racing game where players compete in illegal street races. Beyond racing, players can use weapons to attack opponents, adding an intense combat element to the gameplay.",
+        "Genre": "Racing",
+        "Developer": "EA Redwood Shores",
+        "ReleaseDate": "1991-10-02",
+        "GameConsoleId": 11,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 59,
+        "GameName": "The Horde",
+        "Description": "Defend a medieval village from a horde of creatures in The Horde on the Panasonic 3DO. Released in 1994, this strategy game combines resource management and action elements. Players must make decisions to protect the village, hire knights, and strategically deploy resources to withstand the relentless horde attacks.",
+        "Genre": "Strategy",
+        "Developer": "Crystal Dynamics",
+        "ReleaseDate": "1994-07-01",
+        "GameConsoleId": 11,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 60,
+        "GameName": "Return Fire",
+        "Description": "Engage in vehicular combat and capture the enemy's flag in Return Fire on the Panasonic 3DO. Released in 1995, Return Fire offers intense multiplayer action with a variety of military vehicles. Players navigate diverse terrains, strategically plan attacks, and attempt to seize the opponent's flag for victory.",
+        "Genre": "Vehicular Combat",
+        "Developer": "Silent Software",
+        "ReleaseDate": "1995-03-01",
+        "GameConsoleId": 11,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 61,
+        "GameName": "Super Mario Sunshine",
+        "Description": "Embark on a tropical adventure with Mario in Super Mario Sunshine on the Panasonic Q. Released in 2002, this 3D platformer introduces the FLUDD water pump, allowing Mario to clean up Isle Delfino and save Princess Peach. Super Mario Sunshine is praised for its vibrant visuals and innovative gameplay mechanics.",
+        "Genre": "Platformer",
+        "Developer": "Nintendo EAD",
+        "ReleaseDate": "2002-08-26",
+        "GameConsoleId": 12,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 62,
+        "GameName": "The Legend of Zelda: The Wind Waker",
+        "Description": "Embark on a nautical journey as Link in The Legend of Zelda: The Wind Waker on the Panasonic Q. Released in 2002, this action-adventure game features a cel-shaded art style and an expansive sea to explore. Players navigate dungeons, solve puzzles, and confront the evil Ganondorf.",
+        "Genre": "Action-Adventure",
+        "Developer": "Nintendo EAD",
+        "ReleaseDate": "2002-12-13",
+        "GameConsoleId": 12,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 63,
+        "GameName": "MetroId Prime",
+        "Description": "Immerse yourself in an atmospheric sci-fi adventure with Samus in MetroId Prime on the Panasonic Q. Released in 2002, this first-person action-adventure game takes Samus to the mysterious planet Tallon IV. MetroId Prime received acclaim for its immersive atmosphere, exploration, and innovative use of the first-person perspective.",
+        "Genre": "First-Person Adventure",
+        "Developer": "Retro Studios",
+        "ReleaseDate": "2002-11-17",
+        "GameConsoleId": 12,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 64,
+        "GameName": "Luigi's Mansion",
+        "Description": "Join Luigi in a ghost-hunting adventure in Luigi's Mansion on the Panasonic Q. Released in 2001, this action-adventure game follows Luigi as he explores a haunted mansion to rescue Mario. Armed with the Poltergust 3000 vacuum, Luigi must capture ghosts and solve puzzles to uncover the mansion's secrets.",
+        "Genre": "Action-Adventure",
+        "Developer": "Nintendo EAD",
+        "ReleaseDate": "2001-11-18",
+        "GameConsoleId": 12,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 65,
+        "GameName": "Eternal Darkness: Sanity's Requiem",
+        "Description": "Experience psychological horror and a unique sanity system in Eternal Darkness: Sanity's Requiem on the Panasonic Q. Released in 2002, this action-adventure game features multiple characters across different time periods, battling Lovecraftian horrors. The sanity system adds a layer of psychological tension, with hallucinations affecting gameplay.",
+        "Genre": "Psychological Horror",
+        "Developer": "Silicon Knights",
+        "ReleaseDate": "2002-06-24",
+        "GameConsoleId": 12,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 66,
+        "GameName": "Bonk's Adventure",
+        "Description": "Embark on a prehistoric journey with Bonk in Bonk's Adventure on the NEC TurboGrafx-16 Mini. Originally released in 1989, this platformer stars the caveman Bonk on a quest to rescue Princess Za from the evil King Drool. Bonk's Adventure is known for its colorful graphics and enjoyable gameplay.",
+        "Genre": "Platformer",
+        "Developer": "Red Company",
+        "ReleaseDate": "1989-12-15",
+        "GameConsoleId": 13,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 67,
+        "GameName": "Ys Book I & II",
+        "Description": "Immerse yourself in an epic RPG adventure with Adol Christin in Ys Book I & II on the NEC TurboGrafx-16 Mini. Originally released in 1989, this compilation includes enhanced remakes of the first two Ys games. Experience a captivating narrative, fast-paced action, and a memorable soundtrack.",
+        "Genre": "Action RPG",
+        "Developer": "Nihon Falcom",
+        "ReleaseDate": "1989-12-21",
+        "GameConsoleId": 13,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 68,
+        "GameName": "Splatterhouse",
+        "Description": "Unleash horror and action in Splatterhouse on the NEC TurboGrafx-16 Mini. Originally released in 1988, this beat 'em up game follows Rick Taylor as he battles through a haunted mansion to rescue his girlfriend Jennifer. Splatterhouse is celebrated for its atmospheric horror and gruesome combat.",
+        "Genre": "Beat 'em up",
+        "Developer": "Namco",
+        "ReleaseDate": "1988-08-11",
+        "GameConsoleId": 13,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 69,
+        "GameName": "R-Type",
+        "Description": "Enter the world of challenging sIde-scrolling shooting with R-Type on the NEC TurboGrafx-16 Mini. Originally released in 1987, this classic shooter has players piloting the R-9a Arrowhead spacecraft to defeat the Bydo Empire. R-Type is known for its difficulty, strategic gameplay, and memorable power-ups.",
+        "Genre": "Shoot 'em up",
+        "Developer": "Irem",
+        "ReleaseDate": "1987-07-01",
+        "GameConsoleId": 13,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 70,
+        "GameName": "Legendary Axe",
+        "Description": "Embark on a fantasy adventure with Gogan in Legendary Axe on the NEC TurboGrafx-16 Mini. Originally released in 1989, this sIde-scrolling action game follows Gogan as he wields the Legendary Axe to rescue his beloved Flare. Legendary Axe is praised for its graphics, challenging gameplay, and atmospheric music.",
+        "Genre": "Action",
+        "Developer": "Atlus",
+        "ReleaseDate": "1989-11-21",
+        "GameConsoleId": 13,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 71,
+        "GameName": "Castlevania: Rondo of Blood",
+        "Description": "Step into the shoes of Richter Belmont in Castlevania: Rondo of Blood on the NEC PC Engine. Originally released in 1993, this action-adventure game is wIdely regarded as one of the best in the Castlevania series. Battle Dracula's forces, explore intricate levels, and experience classic 2D platforming.",
+        "Genre": "Action-Adventure",
+        "Developer": "Konami",
+        "ReleaseDate": "1993-10-29",
+        "GameConsoleId": 14,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 72,
+        "GameName": "Bonk's Revenge",
+        "Description": "Join Bonk on another exciting adventure in Bonk's Revenge on the NEC PC Engine. Originally released in 1991, this platformer continues the caveman's escapades against the evil King Drool. With improved graphics and gameplay, Bonk's Revenge builds upon the success of the original game.",
+        "Genre": "Platformer",
+        "Developer": "Red Company",
+        "ReleaseDate": "1991-07-20",
+        "GameConsoleId": 14,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 73,
+        "GameName": "Street Fighter II': Champion Edition",
+        "Description": "Experience the classic one-on-one fighting action of Street Fighter II' on the NEC PC Engine. Originally released in 1993, this edition introduced new features and balanced gameplay. Choose your favorite World Warrior and compete in intense battles to become the champion.",
+        "Genre": "Fighting",
+        "Developer": "Capcom",
+        "ReleaseDate": "1993-09-01",
+        "GameConsoleId": 14,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 74,
+        "GameName": "Ys III: Wanderers from Ys",
+        "Description": "Embark on a new chapter of the Ys saga in Ys III: Wanderers from Ys on the NEC PC Engine. Originally released in 1989, this action RPG follows Adol Christin as he faces new challenges in the land of Celceta. Explore dungeons, battle monsters, and uncover the mysteries of Ys.",
+        "Genre": "Action RPG",
+        "Developer": "Nihon Falcom",
+        "ReleaseDate": "1989-06-21",
+        "GameConsoleId": 14,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 75,
+        "GameName": "Splatterhouse",
+        "Description": "Unleash horror and action in Splatterhouse on the NEC PC Engine. Originally released in 1988, this beat 'em up game follows Rick Taylor as he battles through a haunted mansion to rescue his girlfriend Jennifer. Splatterhouse is celebrated for its atmospheric horror and gruesome combat.",
+        "Genre": "Beat 'em up",
+        "Developer": "Namco",
+        "ReleaseDate": "1988-07-31",
+        "GameConsoleId": 14,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 76,
+        "GameName": "Metal Slug",
+        "Description": "Engage in intense run-and-gun action with Metal Slug on the Neo Geo AES. Originally released in 1996, Metal Slug is a classic arcade-style shooter known for its vibrant graphics, challenging gameplay, and humorous animations. Join the Peregrine Falcon Squad and save the world from the evil General Morden.",
+        "Genre": "Run-and-Gun",
+        "Developer": "SNK",
+        "ReleaseDate": "1996-04-19",
+        "GameConsoleId": 15,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 77,
+        "GameName": "The King of Fighters '98",
+        "Description": "Experience the pinnacle of 2D fighting with The King of Fighters '98 on the Neo Geo AES. Released in 1998, this installment in the renowned series brings together a vast roster of characters for intense and strategic battles. Compete in the KOF tourGameNament and prove your skills as the ultimate fighter.",
+        "Genre": "Fighting",
+        "Developer": "SNK",
+        "ReleaseDate": "1998-07-23",
+        "GameConsoleId": 15,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 78,
+        "GameName": "Samurai Shodown II",
+        "Description": "Immerse yourself in weapon-based combat with Samurai Shodown II on the Neo Geo AES. Originally released in 1994, this classic fighting game offers a unique blend of historical weapons and martial arts. Choose your favorite warrior and engage in intense duels set against a beautiful backdrop.",
+        "Genre": "Fighting",
+        "Developer": "SNK",
+        "ReleaseDate": "1994-10-28",
+        "GameConsoleId": 15,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 79,
+        "GameName": "Neo Turf Masters",
+        "Description": "Experience top-notch golfing in Neo Turf Masters on the Neo Geo AES. Released in 1996, this sports simulation game is celebrated for its accessible gameplay and realistic golf mechanics. Choose your golfer, select your clubs, and compete for the championship on stunning courses.",
+        "Genre": "Sports",
+        "Developer": "Nazca Corporation",
+        "ReleaseDate": "1996-06-20",
+        "GameConsoleId": 15,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 80,
+        "GameName": "Shock Troopers",
+        "Description": "Enter the world of isometric run-and-gun mayhem with Shock Troopers on the Neo Geo AES. Originally released in 1997, this cooperative arcade shooter offers fast-paced action and strategic gameplay. Select your elite squad and embark on a mission to take down an evil organization threatening world peace.",
+        "Genre": "Run-and-Gun",
+        "Developer": "Saurus",
+        "ReleaseDate": "1997-07-01",
+        "GameConsoleId": 15,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 81,
+        "GameName": "The Last Blade",
+        "Description": "Immerse yourself in the world of samurai duels with The Last Blade on the SNK Neo Geo CD. Released in 1997, this 2D fighting game is renowned for its beautiful hand-drawn art, deep combat system, and compelling characters. Choose your warrior and engage in intense battles set against a rich historical backdrop.",
+        "Genre": "Fighting",
+        "Developer": "SNK",
+        "ReleaseDate": "1997-11-25",
+        "GameConsoleId": 16,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 82,
+        "GameName": "King of Fighters '99",
+        "Description": "Step into the arena of intense team-based combat with King of Fighters '99 on the SNK Neo Geo CD. Released in 1999, this installment in the popular series introduces new characters and gameplay mechanics. Assemble your dream team and participate in the King of Fighters tourGameNament for supremacy.",
+        "Genre": "Fighting",
+        "Developer": "SNK",
+        "ReleaseDate": "1999-07-22",
+        "GameConsoleId": 16,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 83,
+        "GameName": "Metal Slug 2",
+        "Description": "Embark on another action-packed adventure with Metal Slug 2 on the SNK Neo Geo CD. Originally released in 1998, this run-and-gun classic builds upon the success of the original with new weapons, vehicles, and challenging levels. Join Marco and his allies to thwart a new threat to world peace.",
+        "Genre": "Run-and-Gun",
+        "Developer": "SNK",
+        "ReleaseDate": "1998-02-23",
+        "GameConsoleId": 16,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 84,
+        "GameName": "Samurai Shodown III",
+        "Description": "Experience the evolution of weapon-based combat with Samurai Shodown III on the SNK Neo Geo CD. Released in 1995, this classic fighting game introduces new characters and mechanics while retaining the series' signature style. Engage in intense duels set against a backdrop of historical locations.",
+        "Genre": "Fighting",
+        "Developer": "SNK",
+        "ReleaseDate": "1995-11-15",
+        "GameConsoleId": 16,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 85,
+        "GameName": "Fatal Fury 3: Road to the Final Victory",
+        "Description": "Join the legendary Terry Bogard in Fatal Fury 3: Road to the Final Victory on the SNK Neo Geo CD. Released in 1995, this classic fighting game continues the tale of the King of Fighters tourGameNament. Experience updated visuals, new characters, and intense battles as you strive for victory.",
+        "Genre": "Fighting",
+        "Developer": "SNK",
+        "ReleaseDate": "1995-02-21",
+        "GameConsoleId": 16,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 86,
+        "GameName": "TowerFall Ascension",
+        "Description": "Experience fast-paced archery battles in TowerFall Ascension on the Ouya. Released in 2013, this multiplayer-focused game offers intense combat in arenas filled with platforms and hazards. Challenge your friends or AI opponents and prove your archery skills in this critically acclaimed indie title.",
+        "Genre": "Action",
+        "Developer": "Matt Makes Games",
+        "ReleaseDate": "2013-06-25",
+        "GameConsoleId": 17,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 87,
+        "GameName": "Soul Fjord",
+        "Description": "Immerse yourself in a unique blend of rhythm and action in Soul Fjord on the Ouya. Released in 2014, this dungeon-crawling game features a soulful soundtrack and stylish visuals. Explore procedurally generated dungeons, battle enemies to the beat, and uncover the mysteries of the afterlife in this captivating indie title.",
+        "Genre": "Rhythm, Action",
+        "Developer": "Airtight Games",
+        "ReleaseDate": "2014-01-28",
+        "GameConsoleId": 17,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 88,
+        "GameName": "Duck Game",
+        "Description": "Quack your way to victory in Duck Game on the Ouya. Released in 2015, this chaotic multiplayer platformer lets you control ducks armed with various weapons. Compete against friends or AI in a series of fast-paced rounds filled with laughter and unpredictable moments. The quack-tastic fun awaits!",
+        "Genre": "Platformer, Multiplayer",
+        "Developer": "Landon Podbielski",
+        "ReleaseDate": "2015-06-04",
+        "GameConsoleId": 17,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 89,
+        "GameName": "Thralled",
+        "Description": "Embark on an emotional journey in Thralled on the Ouya. Released in 2014, this atmospheric adventure game follows the story of a runaway slave seeking to reunite with her abducted child. With a unique narrative and minimalist gameplay mechanics, Thralled offers a thought-provoking gaming experience.",
+        "Genre": "Adventure",
+        "Developer": "Miguel Oliveira",
+        "ReleaseDate": "2014-07-01",
+        "GameConsoleId": 17,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 90,
+        "GameName": "ChronoBlade",
+        "Description": "Enter the world of fast-paced action RPG combat in ChronoBlade on the Ouya. Released in 2014, this sIde-scrolling beat 'em up features intense battles, a variety of characters, and cooperative gameplay. Join forces with friends or AI companions to take on hordes of enemies and powerful bosses.",
+        "Genre": "Action RPG, Beat 'em up",
+        "Developer": "nWay",
+        "ReleaseDate": "2014-04-15",
+        "GameConsoleId": 17,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 91,
+        "GameName": "TowerFall Ascension",
+        "Description": "Experimenta batallas de arquería rápIdas en TowerFall Ascension en la Ouya Pro. Lanzado en 2013, este juego centrado en multijugador ofrece combates intensos en arenas llenas de plataformas y peligros. Desafía a tus amigos u oponentes controlados por la IA y demuestra tus habilIdades con el arco en este título indie aclamado por la crítica.",
+        "Genre": "Acción",
+        "Developer": "Matt Makes Games",
+        "ReleaseDate": "2013-06-25",
+        "GameConsoleId": 18,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 92,
+        "GameName": "Soul Fjord",
+        "Description": "Sumérgete en una combinación única de ritmo y acción en Soul Fjord en la Ouya Pro. Lanzado en 2014, este juego de exploración de mazmorras presenta una banda sonora conmovedora y visuales elegantes. Explora mazmorras generadas proceduralmente, combate enemigos al ritmo de la música y descubre los misterios de la vIda después de la muerte en este cautivador título indie.",
+        "Genre": "Ritmo, Acción",
+        "Developer": "Airtight Games",
+        "ReleaseDate": "2014-01-28",
+        "GameConsoleId": 18,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 93,
+        "GameName": "Duck Game",
+        "Description": "¡Avanza hacia la victoria en Duck Game en la Ouya Pro! Lanzado en 2015, este caótico juego de plataformas multijugador te permite controlar patos armados con diversas armas. Compite contra amigos u oponentes controlados por la IA en una serie de rondas llenas de risas y momentos impredecibles. ¡La diversión del quack te espera!",
+        "Genre": "Plataformas, Multijugador",
+        "Developer": "Landon Podbielski",
+        "ReleaseDate": "2015-06-04",
+        "GameConsoleId": 18,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 94,
+        "GameName": "Thralled",
+        "Description": "Embarcate en un viaje emocional en Thralled en la Ouya Pro. Lanzado en 2014, este juego de aventuras atmosférico sigue la historia de una esclava fugitiva que busca reunirse con su hijo secuestrado. Con una narrativa única y mecánicas de juego minimalistas, Thralled ofrece una experiencia de juego reflexiva.",
+        "Genre": "Aventura",
+        "Developer": "Miguel Oliveira",
+        "ReleaseDate": "2014-07-01",
+        "GameConsoleId": 18,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 95,
+        "GameName": "ChronoBlade",
+        "Description": "Ingresa al mundo del combate RPG de acción rápIdo en ChronoBlade en la Ouya Pro. Lanzado en 2014, este juego de golpear y correr de desplazamiento lateral presenta batallas intensas, una variedad de personajes y juego cooperativo. Únete a amigos o compañeros controlados por la IA para enfrentarte a hordas de enemigos y jefes poderosos.",
+        "Genre": "RPG de Acción, Golpear y correr",
+        "Developer": "nWay",
+        "ReleaseDate": "2014-04-15",
+        "GameConsoleId": 18,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 96,
+        "GameName": "Astrosmash",
+        "Description": "Sumérgete en una intensa batalla espacial con Astrosmash en la Intellivision II. Lanzado en 1982, este clásico juego de disparos te desafía a destruir asteroIdes y naves alienígenas mientras defiendes la Tierra. Con gráficos mejorados y una jugabilIdad adictiva, Astrosmash se convirtió en un pilar de la biblioteca de la Intellivision II.",
+        "Genre": "Disparos",
+        "Developer": "Mattel Electronics",
+        "ReleaseDate": "1982-03-23",
+        "GameConsoleId": 19,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 97,
+        "GameName": "Tron: Deadly Discs",
+        "Description": "Sumérgete en el universo de Tron con Deadly Discs en la Intellivision II. Lanzado en 1982, este juego te coloca en la piel de Tron mientras te enfrentas a enemigos con tu disco mortal. Con gráficos mejorados y mecánicas emocionantes, Deadly Discs ofreció una experiencia única para los jugadores de la Intellivision II.",
+        "Genre": "Aventura, Acción",
+        "Developer": "Mattel Electronics",
+        "ReleaseDate": "1982-03-23",
+        "GameConsoleId": 19,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 98,
+        "GameName": "Advanced Dungeons & Dragons: Cloudy Mountain",
+        "Description": "Embárcate en una épica aventura de fantasía con Cloudy Mountain en la Intellivision II. Lanzado en 1982, este juego de rol te desafía a explorar peligrosas montañas mientras enfrentas a criaturas místicas. Con gráficos mejorados y mecánicas de juego inmersivas, Cloudy Mountain se destacó como un título de rol en la Intellivision II.",
+        "Genre": "RPG, Aventura",
+        "Developer": "Mattel Electronics",
+        "ReleaseDate": "1982-03-23",
+        "GameConsoleId": 19,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 99,
+        "GameName": "Safecracker",
+        "Description": "Demuestra tus habilIdades como ladrón maestro en Safecracker para la Intellivision II. Lanzado en 1982, este juego te desafía a abrir cajas fuertes en una variedad de entornos. Con gráficos mejorados y rompecabezas desafiantes, Safecracker ofreció una experiencia única para los jugadores de la Intellivision II.",
+        "Genre": "Rompecabezas, Estrategia",
+        "Developer": "Mattel Electronics",
+        "ReleaseDate": "1982-03-23",
+        "GameConsoleId": 19,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    },
+    {
+        "Id": 100,
+        "GameName": "B-17 Bomber",
+        "Description": "Participa en misiones de bombardeo estratégico con B-17 Bomber en la Intellivision II. Lanzado en 1982, este simulador te coloca en el asiento del bombardero durante la Segunda Guerra Mundial. Con gráficos mejorados y controles realistas, B-17 Bomber ofreció una experiencia de vuelo única en la Intellivision II.",
+        "Genre": "Simulación, Estrategia",
+        "Developer": "Mattel Electronics",
+        "ReleaseDate": "1982-03-23",
+        "GameConsoleId": 19,
+        "GamePictureUrl": "images/games/SpIder-Man.png"
+    }
+]

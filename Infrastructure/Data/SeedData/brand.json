@@ -1,0 +1,42 @@
+[
+    {
+        "Id": 1,
+        "BrandName": "Sony"
+    },
+    {
+        "Id": 2,
+        "BrandName": "Microsoft"
+    },
+    {
+        "Id": 3,
+        "BrandName": "Nintendo"
+    },
+    {
+        "Id": 4,
+        "BrandName": "Sega"
+    },
+    {
+        "Id": 5,
+        "BrandName": "Atari"
+    },
+    {
+        "Id": 6,
+        "BrandName": "Panasonic"
+    },
+    {
+        "Id": 7,
+        "BrandName": "NEC"
+    },
+    {
+        "Id": 8,
+        "BrandName": "SNK"
+    },
+    {
+        "Id": 9,
+        "BrandName": "Ouya"
+    },
+    {
+        "Id": 10,
+        "BrandName": "Intellivision"
+    }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "CompanyName": "Sony",
+    "Description": "Sony Corporation, commonly known as Sony, is a Japanese multinational conglomerate corporation headquartered in Tokyo. It is one of the world's largest producers of consumer electronics, gaming consoles, and entertainment products. Sony is renowned for its innovation in various fields, including the PlayStation gaming console series, Bravia TVs, Xperia smartphones, and a wide range of audio and visual products.",
+    "CountryOrigin": "Japan",
+    "YearFounded": 1946
+  },
+  {
+    "Id": 2,
+    "CompanyName": "Microsoft",
+    "Description": "Microsoft Corporation is an American multinational technology company with its headquarters in Redmond, Washington. Founded by Bill Gates and Paul Allen in 1975, Microsoft is best known for its software products, including the Windows operating system and the Office suite. In the gaming industry, Microsoft is a major player with its Xbox gaming consoles and a diverse range of gaming services.",
+    "CountryOrigin": "United States",
+    "YearFounded": 1975
+  },
+  {
+    "Id": 3,
+    "CompanyName": "Nintendo",
+    "Description": "Nintendo Co., Ltd. is a Japanese multinational consumer electronics and video game company headquartered in Kyoto. Founded in 1889, Nintendo initially produced handmade playing cards. Over the years, it has evolved into one of the most influential and beloved video game companies globally. Nintendo is known for iconic franchises like Super Mario, The Legend of Zelda, and Pokémon.",
+    "CountryOrigin": "Japan",
+    "YearFounded": 1889
+  },
+  {
+    "Id": 4,
+    "CompanyName": "Sega",
+    "Description": "Sega Corporation is a Japanese multinational video game developer and publisher headquartered in Tokyo. Established in 1960, Sega has played a significant role in the gaming industry, producing arcade games and home video game consoles. Sega's notable franchises include Sonic the Hedgehog, Virtua Fighter, and Yakuza.",
+    "CountryOrigin": "Japan",
+    "YearFounded": 1960
+  },
+  {
+    "Id": 5,
+    "CompanyName": "Atari",
+    "Description": "Atari, Inc. is an American video game and consumer electronics company founded in 1972 by Nolan Bushnell and Ted Dabney. Atari played a pivotal role in the early development of video games, producing iconic titles like Pong and Asteroids. Although facing challenges over the years, the Atari brand remains influential in the history of gaming.",
+    "CountryOrigin": "United States",
+    "YearFounded": 1972
+  },
+  {
+    "Id": 6,
+    "CompanyName": "Panasonic",
+    "Description": "Panasonic Corporation, formerly known as Matsushita Electric Industrial Co., Ltd., is a Japanese multinational electronics corporation headquartered in Osaka. Established in 1918, Panasonic is a leading producer of a wide range of consumer electronics, including televisions, audio equipment, cameras, and home appliances.",
+    "CountryOrigin": "Japan",
+    "YearFounded": 1918
+  },
+  {
+    "Id": 7,
+    "CompanyName": "NEC",
+    "Description": "NEC Corporation is a Japanese multinational information technology and electronics company headquartered in Tokyo. Founded in 1899, NEC has a long history of technological innovation. The company's diverse product portfolio includes computing and communication solutions, semiconductors, and display technologies.",
+    "CountryOrigin": "Japan",
+    "YearFounded": 1899
+  },
+  {
+    "Id": 8,
+    "CompanyName": "SNK",
+    "Description": "SNK Corporation is a Japanese video game hardware and software company. Established in 1978, SNK has contributed significantly to the gaming industry with its Neo Geo console and popular franchises like The King of Fighters and Metal Slug. SNK continues to be a respected name in the world of arcade and home gaming.",
+    "CountryOrigin": "Japan",
+    "YearFounded": 1978
+  },
+  {
+    "Id": 9,
+    "CompanyName": "Ouya",
+    "Description": "Ouya, Inc. was a relatively short-lived American video game console manufacturer founded in 2012. The company gained attention for its Android-based microconsole, the Ouya, which aimed to provide an open platform for indie game developers. While the Ouya faced challenges, it contributed to discussions around alternative gaming platforms.",
+    "CountryOrigin": "United States",
+    "YearFounded": 2012
+  },
+  {
+    "Id": 10,
+    "CompanyName": "Intellivision",
+    "Description": "Intellivision Entertainment, Inc. is an American video game company founded in 1979 by former Mattel Electronics executives. Intellivision gained prominence with its Intellivision home video game console, competing with systems like the Atari 2600. In recent years, the company has sought to revive the Intellivision brand with a modern console, the Intellivision Amico.",
+    "CountryOrigin": "United States",
+    "YearFounded": 1979
+  }
+]

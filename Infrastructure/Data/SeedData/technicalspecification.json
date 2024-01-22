@@ -1,0 +1,173 @@
+[
+    {
+        "Id": 1,
+        "CPU": "Custom AMD Ryzen Zen 2 Octa-core",
+        "GPU": "Custom AMD Radeon RDNA 2",
+        "RAM": "16 GB GDDR6",
+        "Storage": "825 GB SSD",
+        "MaxResolution": "4K UHD",
+        "MaxFPS": 120
+    },
+    {
+        "Id": 2,
+        "CPU": "Custom AMD Jaguar Octa-core",
+        "GPU": "AMD Radeon GCN",
+        "RAM": "8 GB GDDR5",
+        "Storage": "500 GB HDD",
+        "MaxResolution": "1080p",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 3,
+        "CPU": "Custom AMD Zen 2 Octa-core",
+        "GPU": "Custom AMD RDNA 2",
+        "RAM": "16 GB GDDR6",
+        "Storage": "1 TB NVMe SSD",
+        "MaxResolution": "4K UHD",
+        "MaxFPS": 120
+    },
+    {
+        "Id": 4,
+        "CPU": "Custom AMD Jaguar Octa-core",
+        "GPU": "AMD Radeon GCN",
+        "RAM": "8 GB DDR3",
+        "Storage": "500 GB HDD",
+        "MaxResolution": "1080p",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 5,
+        "CPU": "Custom NVIdIA Tegra X1 Octa-core",
+        "GPU": "NVIdIA Maxwell",
+        "RAM": "4 GB LPDDR4",
+        "Storage": "32 GB eMMC (expandable with microSD)",
+        "MaxResolution": "720p (Handheld), 1080p (Docked)",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 6,
+        "CPU": "IBM PowerPC Tri-core",
+        "GPU": "AMD Radeon HD",
+        "RAM": "2 GB DDR3",
+        "Storage": "8 GB internal flash memory (expandable with USB storage)",
+        "MaxResolution": "1080p",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 7,
+        "CPU": "MOTOROLA 68000",
+        "GPU": "SEGA Custom Graphics",
+        "RAM": "512 MB",
+        "Storage": "4 GB Flash Memory",
+        "MaxResolution": "720p",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 8,
+        "CPU": "Hitachi SH-4",
+        "GPU": "PowerVR2",
+        "RAM": "16 MB",
+        "Storage": "GD-ROM",
+        "MaxResolution": "640x480",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 9,
+        "CPU": "AMD Ryzen Embedded R1000",
+        "GPU": "AMD Radeon Vega",
+        "RAM": "8 GB DDR4",
+        "Storage": "32 GB eMMC (expandable with external storage)",
+        "MaxResolution": "4K UHD",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 10,
+        "CPU": "MOS Technology 6507",
+        "GPU": "CTIA/GTIA",
+        "RAM": "128 bytes",
+        "Storage": "CartrIdge-based",
+        "MaxResolution": "NTSC: 160x192, PAL: 160x200",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 11,
+        "CPU": "ARM60",
+        "GPU": "VLIW VIdeo Processor",
+        "RAM": "2 MB",
+        "Storage": "CD-ROM",
+        "MaxResolution": "640x480",
+        "MaxFPS": 30
+    },
+    {
+        "Id": 12,
+        "CPU": "IBM PowerPC Gekko",
+        "GPU": "ATI Hollywood",
+        "RAM": "43 MB",
+        "Storage": "DVD-based",
+        "MaxResolution": "480p",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 13,
+        "CPU": "HuC6280",
+        "GPU": "VIdeo Display Processor",
+        "RAM": "8 KB",
+        "Storage": "HuCard",
+        "MaxResolution": "640x480",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 14,
+        "CPU": "HuC6280",
+        "GPU": "VIdeo Display Processor",
+        "RAM": "8 KB",
+        "Storage": "HuCard",
+        "MaxResolution": "640x480",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 15,
+        "CPU": "68000",
+        "GPU": "Custom",
+        "RAM": "64 KB",
+        "Storage": "CartrIdge",
+        "MaxResolution": "320x224",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 16,
+        "CPU": "68000",
+        "GPU": "Custom",
+        "RAM": "56 MB",
+        "Storage": "CD-ROM",
+        "MaxResolution": "640x480",
+        "MaxFPS": 60
+    },
+    {
+        "Id": 17,
+        "CPU": "NVIdIA Tegra 3",
+        "GPU": "ULP GeForce",
+        "RAM": "1 GB",
+        "Storage": "8 GB",
+        "MaxResolution": "1080p",
+        "MaxFPS": 30
+    },
+    {
+        "Id": 18,
+        "CPU": "NVIdIA Tegra 3",
+        "GPU": "ULP GeForce",
+        "RAM": "1 GB",
+        "Storage": "8 GB",
+        "MaxResolution": "1080p",
+        "MaxFPS": 30
+    },
+    {
+        "Id": 19,
+        "CPU": "General Instrument CP1610",
+        "GPU": "Intellivision II Graphics",
+        "RAM": "2 KB",
+        "Storage": "CartrIdge",
+        "MaxResolution": "160x196",
+        "MaxFPS": 30
+    }
+]
