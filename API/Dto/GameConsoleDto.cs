@@ -15,7 +15,7 @@ namespace API.Dto
 
         public TechnicalSpecification TechnicalSpecification { get; set; }
 
-        public Brand Brand { get; set; }
+        public string Brand { get; set; }
 
         public Company Company { get; set; }
     }

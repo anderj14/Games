@@ -12,10 +12,10 @@ namespace API.Controllers
     public class GameConsolesController : BaseApiController
     {
         private readonly IMapper _mapper;
-        private readonly IGenericRepository<GameConsole> _gameConsoleRepo;
-        public GameConsolesController(IGenericRepository<GameConsole> gameConsoleRepo, IMapper mapper)
+        private readonly IUnitOfWork _unitOfWork;
+        public GameConsolesController(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _gameConsoleRepo = gameConsoleRepo;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -27,11 +27,11 @@ namespace API.Controllers
             var spec = new GameConsoleWithAllSpecification(gameConsoleParams);
 
             var countSpec = new GameConsoleWithCountSpecification(gameConsoleParams);
-            
-            var totalItems = await _gameConsoleRepo.CountAsync(countSpec);
 
-            var gameConsoles = await _gameConsoleRepo.ListAsync(spec);
-            
+            var totalItems = await _unitOfWork.Repository<GameConsole>().CountAsync(countSpec);
+
+            var gameConsoles = await _unitOfWork.Repository<GameConsole>().ListAsync(spec);
+
             var data = _mapper.Map<IReadOnlyList<GameConsoleDto>>(gameConsoles);
 
             return Ok(
@@ -43,7 +43,7 @@ namespace API.Controllers
         public async Task<ActionResult<GameConsoleDto>> GetGameConsole(int id)
         {
             var spec = new GameConsoleWithAllSpecification(id);
-            var gameConsole = await _gameConsoleRepo.GetEntityWithSpec(spec);
+            var gameConsole = await _unitOfWork.Repository<GameConsole>().GetEntityWithSpec(spec);
             var data = _mapper.Map<GameConsoleDto>(gameConsole);
             return Ok(data);
         }
