@@ -1,8 +1,11 @@
 
-namespace Core.Entities
+using Core.Entities;
+
+namespace API.Dto
 {
-    public class GameConsole : BaseEntity
+    public class GameConsoleDto
     {
+        public int Id { get; set; }
         public string ConsoleName { get; set; }
         public string Description { get; set; }
         public string Manufacturer { get; set; }
@@ -10,13 +13,10 @@ namespace Core.Entities
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
 
-        public int TechnicalSpecificationId { get; set; }
         public TechnicalSpecification TechnicalSpecification { get; set; }
 
-        public int BrandId { get; set; }
         public Brand Brand { get; set; }
 
-        public int CompanyId { get; set; }
         public Company Company { get; set; }
     }
 }
