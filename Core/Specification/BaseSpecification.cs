@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
 namespace Core.Specification
 {
@@ -33,6 +29,22 @@ namespace Core.Specification
         protected void AddInclude(Expression<Func<T, object>> includeExpression)
         {
             Includes.Add(includeExpression);
+        }
+
+        protected void AddOrderBy(Expression<Func<T, object>> orderByExpression)
+        {
+            OrderBy = orderByExpression;
+        }
+
+        protected void AddOrderByDescending(Expression<Func<T, object>> orderByDescExpression)
+        {
+            OrderByDescending = orderByDescExpression;
+        }
+        protected void ApplyPaging(int pageIndex, int pageSize)
+        {
+            Skip = (pageIndex - 1) * pageSize;
+            Take = pageSize;
+            IsPagingEnabled = true;
         }
     }
 }

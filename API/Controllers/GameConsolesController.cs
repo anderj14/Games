@@ -1,5 +1,6 @@
 
 using API.Dto;
+using API.Helpers;
 using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
@@ -19,12 +20,23 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<GameConsoleDto>>> GetGameConsoles()
+        public async Task<ActionResult<Pagination<GameConsoleDto>>> GetGameConsoles(
+            [FromQuery] GameConsoleSpecParams gameConsoleParams
+        )
         {
-            var spec = new GameConsoleWithAllSpecification();
+            var spec = new GameConsoleWithAllSpecification(gameConsoleParams);
+
+            var countSpec = new GameConsoleWithCountSpecification(gameConsoleParams);
+            
+            var totalItems = await _gameConsoleRepo.CountAsync(countSpec);
+
             var gameConsoles = await _gameConsoleRepo.ListAsync(spec);
+            
             var data = _mapper.Map<IReadOnlyList<GameConsoleDto>>(gameConsoles);
-            return Ok(data);
+
+            return Ok(
+                new Pagination<GameConsoleDto>(gameConsoleParams.PageIndex, gameConsoleParams.PageSize, totalItems, data)
+            );
         }
 
         [HttpGet("{id}")]
