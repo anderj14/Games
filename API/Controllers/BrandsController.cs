@@ -1,3 +1,4 @@
+using API.Errors;
 using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
@@ -24,9 +25,12 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Brand>> GetBrand(int id)
         {
             var brand = await _brandRepo.GetByIdAsync(id);
+            if (brand == null) return NotFound(new ApiResponse(404));
             return Ok(brand);
         }
     }

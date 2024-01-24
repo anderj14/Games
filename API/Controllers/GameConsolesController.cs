@@ -1,5 +1,6 @@
 
 using API.Dto;
+using API.Errors;
 using API.Helpers;
 using AutoMapper;
 using Core.Entities;
@@ -40,10 +41,15 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<GameConsoleDto>> GetGameConsole(int id)
         {
             var spec = new GameConsoleWithAllSpecification(id);
             var gameConsole = await _unitOfWork.Repository<GameConsole>().GetEntityWithSpec(spec);
+
+            if (gameConsole == null) return NotFound(new ApiResponse(404));
+            
             var data = _mapper.Map<GameConsoleDto>(gameConsole);
             return Ok(data);
         }
