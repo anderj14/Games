@@ -15,6 +15,7 @@ namespace API.Extensions
         {
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            
             services.AddDbContext<GamesRoomContext>(opt =>
             {
                 opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
