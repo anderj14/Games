@@ -14,6 +14,9 @@ namespace API.Helpers
             .ForMember(gc => gc.TechnicalSpecification, o => o.MapFrom(x => x.TechnicalSpecification))
             .ForMember(gc => gc.Brand, o => o.MapFrom(x => x.Brand.BrandName))
             .ForMember(gc => gc.Company, o => o.MapFrom(x => x.Company));
+
+            CreateMap<Game, GameDto>()
+            .ForMember(g => g.GameConsole, o => o.MapFrom(x => x.GameConsole.ConsoleName));
         }
     }
 }

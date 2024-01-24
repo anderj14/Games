@@ -107,7 +107,7 @@ namespace Infrastructure.Data.Migrations
                     Description = table.Column<string>(type: "TEXT", nullable: false),
                     Genre = table.Column<string>(type: "TEXT", nullable: false),
                     Developer = table.Column<string>(type: "TEXT", nullable: false),
-                    RelaseDate = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    ReleaseDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     GamePictureUrl = table.Column<string>(type: "TEXT", nullable: false),
                     GameConsoleId = table.Column<int>(type: "INTEGER", nullable: false)
                 },

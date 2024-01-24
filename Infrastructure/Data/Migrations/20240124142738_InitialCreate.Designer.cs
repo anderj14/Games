@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(GamesRoomContext))]
-    [Migration("20240122192903_InitialCreate")]
+    [Migration("20240124142738_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -90,7 +90,7 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("RelaseDate")
+                    b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
