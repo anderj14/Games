@@ -1,3 +1,7 @@
+import { IBrand } from "./brand"
+import { ICompany } from "./company"
+import { ITechnicalSpecification } from "./technicalSpecification"
+
 export interface IConsole {
     id: number
     consoleName: string
@@ -6,5 +10,10 @@ export interface IConsole {
     releaseDate: string
     price: number
     pictureUrl: string
-    brand: string
+    brandId: number
+    technicalSpecificationId: number
+    companyId: number
+    brand?: IBrand
+    technicalSpecification?: ITechnicalSpecification
+    company?: ICompany
 }

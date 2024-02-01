@@ -1,6 +1,4 @@
 
-using Core.Entities;
-
 namespace API.Dto
 {
     public class GameConsoleDto
@@ -13,10 +11,10 @@ namespace API.Dto
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
 
-        public TechnicalSpecification TechnicalSpecification { get; set; }
+        public int TechnicalSpecificationId { get; set; }
 
-        public string Brand { get; set; }
+        public int BrandId { get; set; }
 
-        public Company Company { get; set; }
+        public int CompanyId { get; set; }
     }
 }

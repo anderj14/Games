@@ -49,7 +49,7 @@ namespace API.Controllers
             var gameConsole = await _unitOfWork.Repository<GameConsole>().GetEntityWithSpec(spec);
 
             if (gameConsole == null) return NotFound(new ApiResponse(404));
-            
+
             var data = _mapper.Map<GameConsoleDto>(gameConsole);
             return Ok(data);
         }

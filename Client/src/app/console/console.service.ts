@@ -5,6 +5,9 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { IPagination } from '../shared/models/pagination';
 import { IConsole } from '../shared/models/console';
 import { IBrand } from '../shared/models/brand';
+import { ITechnicalSpecification } from '../shared/models/technicalSpecification';
+import { ICompany } from '../shared/models/company';
+import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -36,6 +39,16 @@ export class ConsoleService {
 
   getBrands() {
     return this.http.get<IBrand[]>(`${this.baseUrl}brands`);
+  }
+
+  getBrand(brandId: number): Observable<IBrand> {
+    return this.http.get<IBrand>(`${this.baseUrl}brands/${brandId}`);
+  }
+  getTechnicalSpecification(technicalSpecificationId: number): Observable<ITechnicalSpecification> {
+    return this.http.get<ITechnicalSpecification>(`${this.baseUrl}technicalSpecifications/${technicalSpecificationId}`);
+  }
+  getCompany(companyId: number): Observable<ICompany> {
+    return this.http.get<ICompany>(`${this.baseUrl}companies/${companyId}`);
   }
 
 

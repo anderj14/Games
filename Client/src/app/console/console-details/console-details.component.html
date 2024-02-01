@@ -1,1 +1,53 @@
-<p>console-details works!</p>
+<section>
+    <div class="console-details" *ngIf="console && brand && technicalSpecification && company">
+        <div class="console">
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-title-group>
+                        <mat-card-subtitle>Console</mat-card-subtitle>
+                        <mat-card-title>{{console.consoleName}}</mat-card-title>
+                    </mat-card-title-group>
+                </mat-card-header>
+                <mat-card-content>
+                    <div class="description">
+                        <p>Manufacture: <span>{{console.manufacturer}}</span></p>
+                        <p>ReleaseDate: <span>{{console.releaseDate | date}}</span></p>
+                        <p>Price: <span>{{console.price | currency}}</span></p>
+                        <p>Manufacture: <span>{{console.manufacturer}}</span></p>
+                        <div class="box">
+                            <p>Description: </p>
+                            <span>{{console.description}}</span>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img mat-card-sm-image src="{{console.pictureUrl}}">
+                    </div>
+                </mat-card-content>
+            </mat-card>
+            <h2>More....</h2>
+            <div class="about">
+                <div class="specification">
+                    <h3>Technical Specification</h3>
+                    <p>CPU: <span>{{technicalSpecification.cpu}}</span></p>
+                    <p>GPU: <span>{{technicalSpecification.gpu}}</span></p>
+                    <p>RAM: <span>{{technicalSpecification.ram}}</span></p>
+                    <p>Storage: <span>{{technicalSpecification.storage}}</span></p>
+                    <p>Max. Resolution: <span>{{technicalSpecification.maxResolution}}</span></p>
+                    <p>Max. FPS: <span>{{technicalSpecification.maxFPS}} FPS</span></p>
+                </div>
+    
+                <div class="company">
+                    <h3>Company Information</h3>
+                    <p>Company: <span>{{company.companyName}}</span></p>
+                    <p>Country Origin: <span>{{company.countryOrigin}}</span></p>
+                    <p>Year Founded: <span>{{company.yearFounded}}</span></p>
+                    <div class="box">
+                        <p>Description: </p>
+                        <span>{{console.description}}</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

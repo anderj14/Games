@@ -1,1 +1,72 @@
-<p>console works!</p>
+<section class="container">
+    <div class="header">
+        <div class="title">
+            <h1>List of Consoles</h1>
+        </div>
+        <hr>
+
+        <div class="filters">
+            <div class="search">
+                <label>Search</label>
+                <input (keyup.enter)="onSearch()" type="text" placeholder="Search" #search>
+            </div>
+            <div class="selects">
+                <div class="sort">
+                    <label>Sort</label>
+                    <label class="select" for="slct">
+                        <select id="slct" required="required" (change)="onSortSelected($event)">
+                        <option  *ngFor="let sort of sortOption" [value]="sort.value">
+                            {{sort.name}}
+                        </option>
+                        </select>
+                        <svg>
+                        <use xlink:href="#select-arrow-down"></use>
+                        </svg>
+                    </label>
+                    <svg class="sprites">
+                        <symbol id="select-arrow-down" viewbox="0 0 10 6">
+                        <polyline points="1 1 5 5 9 1"></polyline>
+                        </symbol>
+                    </svg>
+                </div>
+
+                <div class="brand">
+                    <label class="">Brands</label>
+                    <label class="select" for="slct">
+                        <select id="slct" required="required" [(ngModel)]="consoleParams.brandId" (change)="onBrandSelected()">
+                        <option  *ngFor="let brand of brands" [value]="brand.id">
+                            {{ brand.brandName }}
+                        </option>
+                        </select>
+                        <svg>
+                        <use xlink:href="#select-arrow-down"></use>
+                        </svg>
+                    </label>
+                    <svg class="sprites">
+                        <symbol id="select-arrow-down" viewbox="0 0 10 6">
+                        <polyline points="1 1 5 5 9 1"></polyline>
+                        </symbol>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+    <div class="body">
+        <app-console-items [consoles]="consoles"></app-console-items>
+    </div>
+
+    <div class="pager">
+        <app-paging 
+        [totalCount]="totalCount"
+        [pageNumber]="consoleParams.pageNumber"
+        [pageSize]="consoleParams.pageSize"
+        ></app-paging>
+        <app-pager
+        [totalCount]="totalCount"
+        [pageSize]="consoleParams.pageSize"
+        (pageChanged)="onPageChanged($event)"
+        ></app-pager>
+    </div>
+</section>

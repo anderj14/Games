@@ -18,9 +18,9 @@ export class ConsoleComponent implements OnInit {
   consoleParams = new ConsoleParams();
 
   sortOption = [
-    { name: 'A - Z', value: 'consoleName' },
-    { name: 'Release Date: Desc To Asc' },
-    { name: 'Release Date: Asc To Desc' },
+    { name: 'Alphabetial (A - Z)', value: 'ConsoleName' },
+    { name: 'Release Date: Desc To Asc', value: 'releaseDateAsc' },
+    { name: 'Release Date: Asc To Desc', value: 'releaseDateDesc' }
   ];
 
   totalCount = 0;
@@ -56,6 +56,28 @@ export class ConsoleComponent implements OnInit {
       },
       error: error => console.log(error)
     });
+  }
+
+  onBrandSelected() {
+    this.consoleParams.pageNumber = 1;
+    this.getConsoles();
+  }
+  onSortSelected(event: any) {
+    this.consoleParams.sort = event.target.value;
+    this.getConsoles();
+  }
+
+  onPageChanged(event: any) {
+    if (this.consoleParams.pageNumber !== event) {
+      this.consoleParams.pageNumber = event;
+      this.getConsoles();
+    }
+  }
+
+  onSearch() {
+    this.consoleParams.search = this.searchTerm?.nativeElement.value;
+    this.consoleParams.pageNumber = 1;
+    this.getConsoles();
   }
 
 }

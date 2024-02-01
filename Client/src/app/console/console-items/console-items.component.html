@@ -1,1 +1,13 @@
-<p>console-items works!</p>
+<div class="container">
+    <mat-card 
+    class="card" 
+    *ngFor="let console of consoles"
+    routerLink="/consoles/{{console.id}}"
+    >
+        <mat-card-header>
+            <mat-card-subtitle>Console</mat-card-subtitle>
+            <mat-card-title>{{console.consoleName}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="{{console.pictureUrl}}" alt="{{console.consoleName}}">
+    </mat-card>
+</div>

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IConsole } from 'src/app/shared/models/console';
 
 @Component({
   selector: 'app-console-items',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./console-items.component.scss']
 })
 export class ConsoleItemsComponent {
-
+  @Input() consoles!: IConsole[];
 }
