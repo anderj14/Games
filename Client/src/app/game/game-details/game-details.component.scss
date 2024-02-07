@@ -1,0 +1,86 @@
+section {
+    padding-top: 50px;
+}
+
+.game-details {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.card {
+    max-width: 1000px;
+
+    @media(max-width: 700px) {
+        max-width: 550px;
+    }
+
+    mat-card-header {
+        background-color: #121212;
+        padding-bottom: 15px;
+
+        mat-card-title-group {
+            mat-card-title {
+                font-size: 28px;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+    }
+
+    mat-card-content {
+        display: flex;
+        gap: 30px;
+        margin-top: 18px;
+
+        @media(max-width: 700px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .description {
+            p {
+                color: #222;
+                font-size: 18px;
+
+            }
+
+            span {
+                font-size: 18px;
+                color: #474747;
+            }
+
+            .date {
+                display: flex;
+                gap: 50px;
+                margin-top: 10px;
+
+                .info {
+                    p {
+                        font-size: 18px;
+                        color: #222;
+
+                    }
+                }
+
+                .data {
+                    p {
+                        color: #474747;
+                    }
+                }
+            }
+
+            .desc {}
+        }
+    }
+}
+
+img {
+    width: 350px;
+
+    @media(max-width: 700px) {
+        width: 100%;
+
+    }
+}

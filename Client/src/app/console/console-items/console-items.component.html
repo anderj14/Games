@@ -1,7 +1,7 @@
 <div class="container">
     <mat-card 
     class="card" 
-    *ngFor="let console of consoles"
+    *ngIf="console"
     routerLink="/consoles/{{console.id}}"
     >
         <mat-card-header>

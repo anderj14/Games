@@ -7,5 +7,5 @@ import { IConsole } from 'src/app/shared/models/console';
   styleUrls: ['./console-items.component.scss']
 })
 export class ConsoleItemsComponent {
-  @Input() consoles!: IConsole[];
+  @Input() console!: IConsole;
 }

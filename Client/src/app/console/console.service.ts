@@ -27,7 +27,7 @@ export class ConsoleService {
 
     params = params.append('sort', consoleParams.sort);
     params = params.append('pageIndex', consoleParams.pageNumber);
-    params = params.append('pageSize', consoleParams.pageSize);
+    params = params.append('pageSize', consoleParams.pageSize!);
     if (consoleParams.search) params = params.append('search', consoleParams.search);
 
     return this.http.get<IPagination<IConsole[]>>(this.baseUrl + 'gameconsoles', { params });

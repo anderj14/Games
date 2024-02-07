@@ -33,9 +33,9 @@ export class ConsoleDetailsComponent implements OnInit {
       this.consoleService.getConsole(+id!).subscribe({
         next: console => {
           this.console = console;
-          this.getBrand(console.brandId);
-          this.getTechnicalSpecification(console.technicalSpecificationId);
-          this.getCompany(console.companyId);
+          this.getBrand(console.brandId!);
+          this.getTechnicalSpecification(console.technicalSpecificationId!);
+          this.getCompany(console.companyId!);
         },
         error: error => console.log(error)
       })

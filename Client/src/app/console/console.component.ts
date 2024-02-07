@@ -47,7 +47,6 @@ export class ConsoleComponent implements OnInit {
       error: error => console.error('Error fetching consoles:', error)
     });
   }
-
   getBrands() {
     this.consoleService.getBrands().subscribe({
       next: response => {

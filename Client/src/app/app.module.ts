@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { CoreModule } from './core/core.module';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { BreadcrumbModule } from 'xng-breadcrumb';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     CoreModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    BreadcrumbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

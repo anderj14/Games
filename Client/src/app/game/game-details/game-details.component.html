@@ -1,0 +1,35 @@
+<section>
+    <div class="game-details" *ngIf="game">
+        <mat-card class="card">
+            <mat-card-header>
+                <mat-card-title-group>
+                    <mat-card-title>{{game.gameName}}</mat-card-title>
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="img">
+                    <img src="{{game.gamePictureUrl}}" alt="{{game.gameName}}">
+                </div>
+                <div class="description">
+                    <span>Compatible with {{game.gameConsole}}</span>
+                    <div class="date">
+                        <div class="info">
+                            <p>Release Date:</p>
+                            <p>Genre:</p>
+                            <p>Developer:</p>
+                        </div>
+                        <div class="data">
+                            <p>{{game.releaseDate | date}}</p>
+                            <p>{{game.genre}}</p>
+                            <p>{{game.developer}}</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Description</p>
+                        <span>{{game.description}}</span>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</section>

@@ -1,0 +1,38 @@
+.container {
+
+
+    .card {
+        padding: 10px;
+        cursor: pointer;
+
+        mat-card-header {
+
+            mat-card-title {
+                font-size: 20px;
+            }
+
+            margin-bottom: 10px;
+        }
+
+        img {
+            padding: 5px;
+            border-radius: 8px;
+            transition: 0.3s;
+
+            &:hover {
+                padding: 1px;
+            }
+
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 480px;
+
+        @media(max-width: 750px) {
+            // width: 100%;
+            height: 600px;
+        }
+    }
+}

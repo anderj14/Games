@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'consoles',
     loadChildren: () => import('./console/console.module').then(m => m.ConsoleModule),
+  },
+  {
+    path: 'games',
+    loadChildren: () => import('./game/game.module').then(m => m.GameModule),
   }
 ];
 

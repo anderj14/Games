@@ -53,8 +53,8 @@
         <hr>
 
     </div>
-    <div class="body">
-        <app-console-items [consoles]="consoles"></app-console-items>
+    <div class="body" *ngFor="let console of consoles">
+        <app-console-items [console]="console"></app-console-items>
     </div>
 
     <div class="pager">
