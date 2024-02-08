@@ -119,10 +119,27 @@
         }
     }
 
-    .body {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
+    .card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+
+        @media(max-width: 1550px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media(max-width: 1150px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media(max-width: 750px) {
+            grid-template-columns: repeat(1, 1fr);
+
+            .card {
+                max-width: 500px;
+                display: flex;
+            }
+        }
     }
 
     .pager {
