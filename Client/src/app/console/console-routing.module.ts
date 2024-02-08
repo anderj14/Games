@@ -8,7 +8,7 @@ const routes: Routes = [
     path: '', title: 'Consoles', component: ConsoleComponent,
   },
   {
-    path: ':id', title: 'Console', component: ConsoleDetailsComponent
+    path: ':id', title: 'Console', component: ConsoleDetailsComponent, data: { breadcrumb: { alias: 'consoleDetails' } }
   }
 ]
 

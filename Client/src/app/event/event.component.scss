@@ -1,0 +1,113 @@
+section {
+    background-image: url(../../assets/images/coming.png);
+    height: 80vh;
+
+    @media(max-width: 850px) {
+        height: 65vh;
+    }
+}
+
+.content {
+
+    .info {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+        .points {
+            margin-top: 30px;
+            margin-bottom: 70px;
+
+            span {
+                background-color: #df2d6e;
+                padding: 5px 15px;
+                margin: 5px;
+                border-radius: 20px;
+            }
+        }
+
+        .coming {
+            margin: 0;
+            font-size: 30px;
+            color: #ffffff;
+            text-transform: uppercase;
+
+            span {
+                color: #6c6cff;
+            }
+        }
+
+        h1 {
+            font-size: 300px;
+            margin: -20px;
+            color: transparent;
+            -webkit-text-stroke: 25px rgb(255, 255, 255);
+            text-stroke: 1px rgb(255, 255, 255);
+            color: #000;
+
+            @media(max-width: 850px) {
+                font-size: 270px;
+            }
+
+            @media(max-width: 780px) {
+                font-size: 240px;
+                -webkit-text-stroke: 20px rgb(255, 255, 255);
+            }
+
+            @media(max-width: 680px) {
+                font-size: 220px;
+                -webkit-text-stroke: 18px rgb(255, 255, 255);
+            }
+
+            @media(max-width: 620px) {
+                font-size: 200px;
+                -webkit-text-stroke: 18px rgb(255, 255, 255);
+            }
+
+            @media(max-width: 570px) {
+                font-size: 180px;
+                -webkit-text-stroke: 15px rgb(255, 255, 255);
+            }
+        }
+
+        .phrase {
+            margin: 0px;
+            color: #df2d6e;
+            font-size: 50px;
+            font-weight: 800;
+            text-transform: uppercase;
+
+            @media(max-width: 850px) {
+                text-align: center;
+                font-size: 40px;
+            }
+
+            @media(max-width: 620px) {
+                font-size: 30px;
+            }
+
+        }
+
+        .action {
+            margin-top: 50px;
+
+            button {
+                background: none;
+                border: 2px solid #ffffff;
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #ffffff;
+                padding: 10px 30px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+}

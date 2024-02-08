@@ -3,16 +3,24 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+import { BreadcrumbModule } from 'xng-breadcrumb';
 
 @NgModule({
-  declarations: [FooterComponent, NavBarComponent],
+  declarations: [
+    FooterComponent,
+    NavBarComponent,
+    BreadcrumbsComponent
+  ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    BreadcrumbModule
   ],
   exports: [
-    FooterComponent, 
+    FooterComponent,
     NavBarComponent,
+    BreadcrumbsComponent
   ]
 })
 export class CoreModule { }

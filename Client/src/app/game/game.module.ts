@@ -7,6 +7,7 @@ import { GameRoutingModule } from './game-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { FormsModule } from '@angular/forms';
+import { CoreModule } from '../core/core.module';
 
 
 
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
     SharedModule,
     MaterialModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    CoreModule
   ]
 })
 export class GameModule { }

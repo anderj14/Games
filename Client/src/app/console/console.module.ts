@@ -7,6 +7,7 @@ import { ConsoleRoutingModule } from './console-routing.module';
 import { MaterialModule } from '../material/material.module';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
+import { CoreModule } from '../core/core.module';
 
 
 
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     ConsoleRoutingModule,
     MaterialModule,
     SharedModule,
-    FormsModule
+    FormsModule,
+    CoreModule
   ]
 })
 export class ConsoleModule { }

@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { EventComponent } from './event/event.component';
 
 const routes: Routes = [
   {
-    path: '', title: 'Home Page', component: HomeComponent,
+    path: '', title: 'Home Page', component: HomeComponent, data: {breadcrumb: 'Home'}
   },
   {
     path: 'consoles',
@@ -13,6 +14,9 @@ const routes: Routes = [
   {
     path: 'games',
     loadChildren: () => import('./game/game.module').then(m => m.GameModule),
+  },
+  {
+    path: 'events', component: EventComponent, title: 'Events'
   }
 ];
 

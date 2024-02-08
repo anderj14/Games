@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IBrand } from 'src/app/shared/models/brand';
 import { ITechnicalSpecification } from 'src/app/shared/models/technicalSpecification';
 import { ICompany } from 'src/app/shared/models/company';
+import { BreadcrumbService } from 'xng-breadcrumb';
 
 @Component({
   selector: 'app-console-details',
@@ -20,7 +21,8 @@ export class ConsoleDetailsComponent implements OnInit {
 
   constructor(
     private consoleService: ConsoleService,
-    private activateRoute: ActivatedRoute
+    private activateRoute: ActivatedRoute,
+    private bcService: BreadcrumbService
   ) { }
 
   ngOnInit(): void {
@@ -36,6 +38,7 @@ export class ConsoleDetailsComponent implements OnInit {
           this.getBrand(console.brandId!);
           this.getTechnicalSpecification(console.technicalSpecificationId!);
           this.getCompany(console.companyId!);
+          this.bcService.set('@consoleDetails', console.consoleName);
         },
         error: error => console.log(error)
       })
