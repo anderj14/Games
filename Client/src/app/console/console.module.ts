@@ -23,7 +23,10 @@ import { CoreModule } from '../core/core.module';
     MaterialModule,
     SharedModule,
     FormsModule,
-    CoreModule
+    CoreModule,
+  ],
+  exports: [
+    ConsoleItemsComponent
   ]
 })
 export class ConsoleModule { }

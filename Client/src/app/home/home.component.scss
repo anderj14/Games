@@ -1,0 +1,97 @@
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .info-page {
+        display: flex;
+        justify-content: center;
+        max-width: 1300px;
+
+        .img {
+            img {
+                width: 700px;
+            }
+        }
+
+        article {
+
+            position: relative;
+            background-color: #ffffff;
+            top: 150px;
+            left: -130px;
+
+            .phrase {
+                padding: 50px;
+                width: 550px;
+                margin-top: -50px;
+
+                h1 {
+                    text-transform: uppercase;
+                    font-size: 55px;
+                    font-weight: 300;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .console-details {
+        margin-top: 180px;
+
+        .console-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 200;
+                text-transform: uppercase;
+            }
+
+            button {
+                background-color: #fff;
+                border: 1px solid #000;
+                padding: 20px 50px;
+                font-size: 20px;
+                font-weight: 400;
+                text-transform: uppercase;
+                border-radius: 4px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #000;
+                }
+            }
+        }
+
+
+        .console {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            padding: 30px;
+            max-width: 1550px;
+
+            @media(max-width: 1550px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            @media(max-width: 1150px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media(max-width: 750px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+}

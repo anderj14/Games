@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { BreadcrumbModule } from 'xng-breadcrumb';
 import { EventComponent } from './event/event.component';
+import { ConsoleModule } from './console/console.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { EventComponent } from './event/event.component';
     CoreModule,
     RouterModule,
     HttpClientModule,
+    ConsoleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

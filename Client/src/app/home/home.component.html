@@ -1,1 +1,36 @@
-<p>home works!</p>
+<!-- home.component.html -->
+<section>
+
+    <div class="info-page">
+        <div class="img">
+            <img src="/assets/images/gamer.jpg" alt="">
+        </div>
+        <article>
+            <div class="phrase">
+                <h1>Your Gateway to Immersive Gaming Experiences</h1>
+                <p>
+                    Game Room has been your go-to hub for all things consoles and games.
+                    Dive into our world of tech insights and gaming updates,
+                    where every visit is a button away from a new level of excitement!"
+                </p>
+            </div>
+        </article>
+    </div>
+
+
+    <div class="console-details">
+        <div class="console-link">
+            <h2>Some Consoles</h2>
+            <button routerLink="consoles">See More</button>
+        </div>
+
+        <div class="console">
+            <div class="card" *ngFor="let console of consoles; let i = index">
+                <div *ngIf="i < 4">
+                    <app-console-items [console]="console"></app-console-items>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
